@@ -19,6 +19,8 @@
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RegConnectionString %>" SelectCommand="SELECT [AgentName], [StartTime], [Lunch], [EndTime] FROM [Agents] ORDER BY [StartTime], [AgentName]"></asp:SqlDataSource>
+        <asp:Button ID="resetCoreButton" runat="server" style="height: 26px" Text="Button" />
+        <asp:Button ID="editButton" runat="server" Text="Button" />
     </form>
 </body>
 </html>
